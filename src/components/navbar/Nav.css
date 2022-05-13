@@ -1,0 +1,22 @@
+
+.navbar {
+  background-color: #140918;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+span {
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+  color: black;
+  margin-left: 5px;
+  margin-right: 60%;
+  margin-top: 8px;
+  display: flex;
+  color: white;
+  align-self: flex-start;
+}
+

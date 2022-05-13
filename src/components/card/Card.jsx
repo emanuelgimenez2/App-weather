@@ -21,7 +21,7 @@ export default function Card ({min, max, name, img, onClose, id, country}) {
               <p className="max">Max ↑</p>
               <p>{max}°C</p>
             </div>
-            <div className="col-sm-4 col-md-4 col-lg-4">
+            <div >
               <img className="iconoClima" src={"http://openweathermap.org/img/wn/"+img+"@2x.png"} width="80" height="80" alt="" />
             </div>
           </div>

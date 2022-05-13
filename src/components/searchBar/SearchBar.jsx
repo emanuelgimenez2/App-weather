@@ -6,12 +6,12 @@ export default function SearchBar({ onSearch }) {
   return (
     <div className="flexbox">
       <div className="search">
-        <link
+        {/* <link
           rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
           integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-          crossorigin="anonymous"
-        />
+          crossOrigin="anonymous"
+        /> */}
         <form
           onSubmit={(e) => {
             e.preventDefault();

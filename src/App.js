@@ -9,13 +9,17 @@ import './App.css';
 export default function App() {
   const [cities, setCities] = useState([]);
   
-  const apiKey = process.env.REACT_APP_API_KEY_WEATHER;
+  const apiKey = "85e6757c938f526630fd706cc7634793";
+  const apiUrl = "https://api.openweathermap.org/data/2.5/weather";
+
+  ;
 
 function onSearch(ciudad) {
   //Llamado a la API
   
-  fetch(`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric`)
+  fetch(` ${apiUrl}?q=${ciudad}&appid=${apiKey}`)
     .then(r => r.json())
+
     .then((recurso) => {
       if(recurso.main !== undefined){
         const ciudad = {
@@ -35,6 +39,7 @@ function onSearch(ciudad) {
       setCities(oldCities => {
         let checkIfExistCity = oldCities.findIndex(i => i.id === ciudad.id);
           return checkIfExistCity > -1 ? [...oldCities] : [...oldCities, ciudad]
+     
       });
   }else {
     alert("Ciudad no encontrada");

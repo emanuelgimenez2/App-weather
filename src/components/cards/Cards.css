@@ -8,11 +8,18 @@
   position: relative;
   border: 1px solid rgb(216, 216, 216);
   width: 18.75rem;
+  height: 30rem;
   padding: 30px 0 10px 0;
   border-radius: 10px;
   margin: 30px;
-  background-color: #fff;
-  box-shadow: 2px 2px 10px rgba(70, 70, 70, 0.495);
+  /* background-color: #fff; */
+  border-radius: 36px;
+   background: #ecc3c3;
+   box-shadow:  7px 7px 14px #c2bebe,
+             -7px -7px 14px #ffffff;
+    background: rgba(242, 242, 243, 0.6);
+
+
 }
 
 .card-title {

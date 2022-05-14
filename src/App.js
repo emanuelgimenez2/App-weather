@@ -3,6 +3,7 @@ import Nav from './components/navbar/Nav'
 import Cards from './components/cards/Cards.jsx'
 import City from './components/city/City.jsx';
 import NotFound from './components/notfound/NotFound.jsx';
+// import socialMedia from './components/socialmedia/SocialMedia.js';
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
 
@@ -68,6 +69,8 @@ return (
     <Route exact path='/ciudad/:ciudadId' render={({match}) => <City city={onFilter(match.params.ciudadId)} />}/>
     <Route path="/" exact render={() =>  <Cards cities={cities} onClose={onClose} />} />
     <Route component={NotFound} />
+    {/* <Route component={socialMedia} /> */}
+
     </Switch>
   </div>
 )};

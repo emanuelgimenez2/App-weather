@@ -17,13 +17,13 @@
    background: #ecc3c3;
    box-shadow:  7px 7px 14px #c2bebe,
              -7px -7px 14px #ffffff;
-    background: rgba(242, 242, 243, 0.9);
+    background: rgba(242, 242, 243, 0.8);
 
 
 }
 
 .card-title {
-  border-bottom: 1px solid rgb(213, 213, 213);
+  /* border-bottom: 1px solid rgb(213, 213, 213); */
   margin: 0 20px 20px 20px;
   padding-bottom: 10px;
   font-size: 1.3rem;
@@ -35,6 +35,9 @@
 
 .card-title:hover {
   color: var(--main-color);
+ font-size: 1.6rem;
+ color: #000;
+ 
 }
 
 #closeIcon {

@@ -69,7 +69,7 @@ return (
     <Route exact path='/ciudad/:ciudadId' render={({match}) => <City city={onFilter(match.params.ciudadId)} />}/>
     <Route path="/" exact render={() =>  <Cards cities={cities} onClose={onClose} />} />
     <Route component={NotFound} />
-    {/* <Route component={socialMedia} /> */}
+    
 
     </Switch>
   </div>

@@ -1,0 +1,48 @@
+.ciudad {
+    /* margin-top: 500px; */
+display: flex;
+    position: relative;
+    border: 1px solid rgb(216, 216, 216);
+    width: 50rem;
+    height: 50rem;
+    padding: 30px 0 10px 0;
+    border-radius: 10px;
+    margin: 30px;
+    /* background-color: #fff; */
+    border-radius: 36px;
+     background: #ecc3c3;
+     box-shadow:  7px 7px 14px #c2bebe,
+               -7px -7px 14px #ffffff;
+      background: rgba(242, 242, 243, 0.8);
+  
+  
+  }
+  .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 25px;
+  }
+  .titulo{
+    font-size: 40px;
+    font-weight: bold;
+    
+  
+
+    
+  }
+  .city{
+      display: flex;
+      align-items: center;
+        justify-content: center;
+  }
+  /* .img{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 36px;
+    margin-top: -50px;
+    background-image: "../../utils/fondo_card_ciudad.png";
+  } */
+  

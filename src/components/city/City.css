@@ -3,12 +3,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background-color: red; */
 }
 
 .ciudad {
+  /* background-color: red; */
     /* margin-top: 500px; */
 display: flex;
-    position: relative;
+align-items: center;
+justify-content: center;
+    /* position: relative; */
     border: 1px solid rgb(216, 216, 216);
     width: 50rem;
     height: 50rem;
@@ -17,7 +21,7 @@ display: flex;
     margin: 30px;
     /* background-color: #fff; */
     border-radius: 36px;
-     background: #ecc3c3;
+     /* background: #ecc3c3; */
      box-shadow:  7px 7px 14px #c2bebe,
                -7px -7px 14px #ffffff;
       background: rgba(242, 242, 243, 0.8);
@@ -25,21 +29,32 @@ display: flex;
   
   }
   .info{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    font-size: 25px;
+    font-size: 25px; */
   }
   .titulo{
+    margin-top: -50px;
+    
     font-size: 40px;
     font-weight: bold;
-    
+  } 
   
+    .container-button-city{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+    }
+     
+  
+    
 
     
-  }
+  
   .city{
       display: flex;
       align-items: center;
@@ -52,9 +67,6 @@ display: flex;
     margin-top: -50px;
     background-image: "../../utils/fondo_card_ciudad.png";
   } */
-  .container-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  .btn-primary{
+   position: fixed; 
   }

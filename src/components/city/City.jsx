@@ -17,10 +17,10 @@ export default function Ciudad({ city }) {
               <div>Cantidad de nubes: {city.clouds}</div>
               <div>Latitud: {city.latitud}º</div>
               <div>Longitud: {city.longitud}º</div>
-              <div className="container-button">
-              {/* <input type="button" value="Página anterior" onClick="http://localhost:3000/"/> */}
+              <div className="container-button-city">
+              
 
-              <button type="button" value="http://localhost:3000/" class="btn btn-primary">
+              <button type="button" onClick="http://localhost:3000/" className="btn btn-primary">
                 Volver
               </button>
 

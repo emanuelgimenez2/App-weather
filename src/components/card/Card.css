@@ -10,18 +10,22 @@
   margin-bottom: 15px;
 }
 
-#closeIcon {
+
+
+.container-button{
   display: flex;
-  justify-content: flex-end;
-  margin-right: 8px;
-  margin-top: 8px;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  
+  
 }
 
 .card-body {
   margin-top: 0px !important;
   padding-top: 0px !important;
 }
-.btn-danger{
-  margin-bottom: 50px;
- 
+.btn-danger{ 
+  margin-top: -20px;
 }
+

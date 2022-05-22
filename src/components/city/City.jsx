@@ -17,18 +17,23 @@ export default function Ciudad({ city }) {
               <div>Cantidad de nubes: {city.clouds}</div>
               <div>Latitud: {city.latitud}º</div>
               <div>Longitud: {city.longitud}º</div>
+
               <div className="container-button-city">
-              
-
-              <button type="button" onClick="http://localhost:3000/" className="btn btn-primary">
+                {/* <button type="button" href="javascript: history.go(-1)" className="btn btn-primary">
                 Volver
-              </button>
+              </button> */}
+                {/* <input type="button" value="Volver" onClick="http://localhost:3000/" className="btn btn-primary" />
+                 */}
 
+                <a
+                  value=""
+                  href="javascript: history.go(-1)"
+                  className="btn btn-primary"
+                >
+                  Volver atrás
+                </a>
               </div>
             </div>
-            {/* <div className='img'>
-                            
-                        </div> */}
           </div>
         </div>
       </div>

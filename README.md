@@ -1,28 +1,39 @@
+
+
 # WeatherApp
-Una aplicacion cuyo objetivo es la búsqueda del clima actual de cualquier país del mundo.  
+
+Una aplicacion cuyo objetivo es la búsqueda del clima actual de cualquier país y ciudad del mundo.  
 <br/>
 Esta desarrollada con JavaScript utilizando React.  
 <br />
 Los datos son consumidos de la Api "openweathermap"
 
+## Comenzando 🚀
 
-# Iniciamos la aplicación con 'Create React App'
+Pruebalo y dime si te gusto.
+https://app-weather-emanuelgimenez2.vercel.app/
 
-Este proyecto fue desarrollado 
+## Autor ✒️
 
-## Scripts
+* **Gimenez Emanuel** - *Proyecto Individual* - [emanuelgimenez2](https://github.com/emanuelgimenez2)
 
-Instalamos las dependecias incluidas en el package.json
 
-### `npm install`
 
-El proyecto se inicializa utilizando:
 
-### `npm start`
+## Expresiones  🎁
 
-Corres la aplicación en modo desarrollo.
+* Comenta a otros sobre este proyecto 📢
+* Da las gracias públicamente 🤓.
+* Si te interesa mis proyectos te invito a que te pongas en contacto por medio de los medios  que estan a disposición 
+* etc.
 
-Abre en el portal [http://localhost:3000](http://localhost:3000) visto desde tu browser.
+
+
+---
+⌨️ con ❤️ por [Gimenez Emanuel](https://github.com/emanuelgimenez2) 😊
+
+
+
 
 
 

@@ -6,6 +6,7 @@ import NotFound from './components/notfound/NotFound.jsx';
 // import socialMedia from './components/socialmedia/SocialMedia.js';
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
+import Landing from './components/landingPage/landingPage';
 
 export default function App() {
   const [cities, setCities] = useState([]);
@@ -13,13 +14,15 @@ export default function App() {
   const apiKey = "85e6757c938f526630fd706cc7634793";
   const apiUrl = "https://api.openweathermap.org/data/2.5/weather";
 
-  ;
+  
 
 function onSearch(ciudad) {
   //Llamado a la API
   
   fetch(` ${apiUrl}?q=${ciudad}&appid=${apiKey}`)
     .then(r => r.json())
+
+
 
     .then((recurso) => {
       if(recurso.main !== undefined){
@@ -64,6 +67,7 @@ function onFilter(ciudadId) {
 
 return (
   <div className="App">
+    {/* <Route path="/" element={<Landing />} /> */}
     <Route path='/' render={() => <Nav onSearch={onSearch} />}/>
     <Switch>
     <Route exact path='/ciudad/:ciudadId' render={({match}) => <City city={onFilter(match.params.ciudadId)} />}/>

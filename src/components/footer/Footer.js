@@ -69,8 +69,9 @@ export default function Footer() {
           style="background-color: rgba(0, 0, 0, 0.2);"
         >
           © 2020 Copyright:
-          <a className="text-white" href="https://mdbootstrap.com/">
-            MDBootstrap.com
+          <a className="text-white" href="">
+           
+           
           </a>
         </div>
       </footer>

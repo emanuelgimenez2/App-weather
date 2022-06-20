@@ -7,6 +7,7 @@ import NotFound from './components/notfound/NotFound.jsx';
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import Landing from './components/landingPage/landingPage';
+import Footer from './components/footer/Footer';
 
 export default function App() {
   const [cities, setCities] = useState([]);
@@ -68,13 +69,15 @@ function onFilter(ciudadId) {
 return (
   <div className="App">
     {/* <Route path="/" element={<Landing />} /> */}
-    <Route path='/' render={() => <Nav onSearch={onSearch} />}/>
+    {/* <Route path='/' render={() => <Nav onSearch={onSearch} />}/>
     <Switch>
     <Route exact path='/ciudad/:ciudadId' render={({match}) => <City city={onFilter(match.params.ciudadId)} />}/>
     <Route path="/" exact render={() =>  <Cards cities={cities} onClose={onClose} />} />
     <Route component={NotFound} />
+
     
 
-    </Switch>
+    </Switch> */}
+    <Footer/>
   </div>
 )};

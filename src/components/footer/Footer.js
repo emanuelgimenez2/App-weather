@@ -1,75 +1,79 @@
-import React from 'react';
+import React from "react";
 // import { Link } from 'react-router-dom';
-import './Footer.css';
- 
+import "./Footer.css";
 
 export default function Footer() {
-    return (
-        <div className="footer">
-        <div className="footer-content">
-            <div className="footer-section about">
-            <h1 className="logo-text">Weather App</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-                dolores, quod quia, dolore doloribus quisquam cumque, quis
-                voluptates doloremque, quibusdam dolorum quisquam.
-            </p>
-            <div className="contact">
-                <span>
-                <i className="fas fa-phone"></i>
-                +1(123)456-7890
-                </span>
-                <span>
-                <i className="fas fa-envelope"></i>
-                </span>
-                    
-            </div>
-            <div className="footer-section links">¨
-            <h2>Quick Links</h2>
-            
-            </div>
-            <div className="footer-section social">
-            <h2>Social Media</h2>
-            <br></br>
-            <ul>
-                <li>
-                <a href="#">
-
-                <i className="fab fa-facebook-f"></i>
-                </a>
-                </li>
-                <li>
-                <a href="#">
-                <i className="fab fa-instagram"></i>
-                </a>
-                </li>
-                <li>
-                <a href="#">
-                <i className="fab fa-twitter"></i>
-                </a>
-                </li>
-                <li>
-                <a href="#">
-                <i className="fab fa-google"></i>
-
-                </a>
-                </li>
-            </ul>
-            </div>
-        </div>
-        <div className="footer-bottom">
-            &copy; Weather App 2020 - Designed by
-
-            <a href="" target="_blank">
-            <span>
-                <i className="fas fa-code"></i>
-                </span>
+  return (
+    <div className="container my-5">
+      <footer className="bg-light text-center text-white">
+        <div className="container p-4 pb-0">
+          <section className="mb-4">
+            <a
+              className="btn btn-primary btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="#!"
+              role="button"
+            >
+              <i className="fab fa-facebook-f"></i>
             </a>
-        </div>
-        </div>
-        </div>
-    )
 
-    
-    
+            <a
+              className="btn btn-primary btn-floating m-1"
+              style="background-color: #55acee;"
+              href="#!"
+              role="button"
+            >
+              <i className="fab fa-twitter"></i>
+            </a>
+
+            <a
+              className="btn btn-primary btn-floating m-1"
+              style="background-color: #dd4b39;"
+              href="#!"
+              role="button"
+            >
+              <i className="fab fa-google"></i>
+            </a>
+
+            <a
+              className="btn btn-primary btn-floating m-1"
+              style="background-color: #ac2bac;"
+              href="#!"
+              role="button"
+            >
+              <i className="fab fa-instagram"></i>
+            </a>
+
+            <a
+              className="btn btn-primary btn-floating m-1"
+              style="background-color: #0082ca;"
+              href="#!"
+              role="button"
+            >
+              <i className="fab fa-linkedin-in"></i>
+            </a>
+
+            <a
+              className="btn btn-primary btn-floating m-1"
+              style="background-color: #333333;"
+              href="#!"
+              role="button"
+            >
+              <i className="fab fa-github"></i>
+            </a>
+          </section>
+        </div>
+
+        <div
+          className="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2);"
+        >
+          © 2020 Copyright:
+          <a className="text-white" href="https://mdbootstrap.com/">
+            MDBootstrap.com
+          </a>
+        </div>
+      </footer>
+    </div>
+  );
 }

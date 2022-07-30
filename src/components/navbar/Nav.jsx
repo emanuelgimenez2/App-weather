@@ -1,4 +1,5 @@
 import React from "react";
+import Autentication from "../autentication/autentication.js";
 
 import SearchBar from "../searchBar/SearchBar.jsx";
 import "./Nav.css";
@@ -9,6 +10,9 @@ export default function Nav({ onSearch }) {
       <div className="container">
         <span>Weather App</span>
         <SearchBar onSearch={onSearch} />
+      </div>
+      <div className="container">
+        <Autentication />
       </div>
     </nav>
   );

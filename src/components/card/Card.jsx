@@ -15,6 +15,7 @@ export default function Card({ min, max, name, img, onClose, id, country }) {
           <div className="col-sm-4 col-md-4 col-lg-4">
             <p className="min">Min ↓</p>
             <p>{min}°C</p>
+           
           </div>
           <div className="col-sm-4 col-md-4 col-lg-4">
             <p className="max">Max ↑</p>

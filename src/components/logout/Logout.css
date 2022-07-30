@@ -1,0 +1,18 @@
+.main-button {
+    background-color: #145784;
+    border: solid 1px #145784;
+    color: white;
+    font-weight: 700;
+    width: max-content;
+    padding: 13px 22px;
+    margin-right: 50px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .3s ease-in-out 0s;
+  }

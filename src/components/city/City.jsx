@@ -1,9 +1,12 @@
+/* eslint-disable no-script-url */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import styles from "../card/Card.module.css";
 import NotFound from "../notfound/NotFound.jsx";
 import "./City.css";
 
 export default function Ciudad({ city }) {
+
   if (city) {
     return (
       <div className="city">
@@ -19,11 +22,7 @@ export default function Ciudad({ city }) {
               <div>Longitud: {city.longitud}º</div>
 
               <div className="container-button-city">
-                {/* <button type="button" href="javascript: history.go(-1)" className="btn btn-primary">
-                Volver
-              </button> */}
-                {/* <input type="button" value="Volver" onClick="http://localhost:3000/" className="btn btn-primary" />
-                 */}
+               
 
                 <a
                   value=""

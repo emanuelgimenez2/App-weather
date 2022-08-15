@@ -11,9 +11,9 @@ export default function Nav({ onSearch }) {
         <span>Weather App</span>
         <SearchBar onSearch={onSearch} />
       </div>
-      <div className="container">
+      {/* <div className="container">
         <Autentication />
-      </div>
+      </div> */}
     </nav>
   );
 }
